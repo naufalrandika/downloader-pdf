@@ -1,0 +1,27 @@
+{
+  "name": "downloader-pdf",
+  "version": "1.0.0",
+  "description": "HTML page to pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js -R spec --ui bdd --timeout 5000"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "nodejs",
+    "exportpdf"
+  ],
+  "author": "Naufal Randika Parikesit",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "handlebars": "^4.7.8",
+    "inline-css": "^4.0.2",
+    "puppeteer": "^22.3.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  }
+}
