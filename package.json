@@ -1,6 +1,6 @@
 {
   "name": "downloader-pdf",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "HTML page to pdf",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,16 @@
   "devDependencies": {
     "chai": "^5.1.0",
     "mocha": "^10.3.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naufalrandika/downloader-pdf"
+  },
+  "bugs": {
+    "url": "https://github.com/naufalrandika/downloader-pdf/issues"
+  },
+  "homepage": "https://github.com/naufalrandika/downloader-pdf#readme"
 }
